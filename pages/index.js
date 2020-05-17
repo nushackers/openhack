@@ -46,7 +46,7 @@ const Index = () => (
         </span>
         .
       </Text>
-      <h3 id="repos">Approved NUS-related repositories:</h3>
+      <h3 id="repos">Approved NUS-related repositories</h3>
       <ul className="my-3">
         {approvedRepos.repos.map((repo) => (
           <li className="ml-5">
