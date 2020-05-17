@@ -47,7 +47,10 @@ const Index = () => (
       <ul className="my-3">
         {approvedRepos.repos.map((repo) => (
           <li className="ml-5">
-            {repo.name} &mdash; <a href={repo.url}>{repo.url}</a>
+            {repo.name} &mdash;{" "}
+            <a target="_blank" href={repo.url}>
+              {repo.url}
+            </a>
           </li>
         ))}
       </ul>
@@ -55,8 +58,10 @@ const Index = () => (
         This is not an exhaustive list of allowed repositories and we are still
         building this list up along the way. If you want to contribute to any
         other NUS-related repositories, feel free to do so and write to us at{" "}
-        <a href="mailto:openhack@nushackers.org">openhack@nushackers.org</a>, so
-        that we can add to the list.
+        <a target="_blank" href="mailto:openhack@nushackers.org">
+          openhack@nushackers.org
+        </a>
+        , so that we can add to the list.
       </Text>
       <h2 className="text-xl font-black">Rules</h2>
       <Text className="my-5">
@@ -116,7 +121,10 @@ const Index = () => (
         </li>
         <li className="ml-5 my-1">
           For ideas on what a project should look like, you can check out{" "}
-          <a href="https://hacknroll2020.devpost.com/submissions">
+          <a
+            target="_blank"
+            href="https://hacknroll2020.devpost.com/submissions"
+          >
             submissions for Hack&Roll 2020
           </a>{" "}
           (the rule of thumb is this: if your project shows some effort we will
@@ -176,12 +184,21 @@ const Index = () => (
       <FAQQuestion question="I don’t know what Pull Requests (PRs) are? How do I get started?" />
       <Text className="mb-5">
         Do take a look at{" "}
-        <a href="https://opensource.guide/how-to-contribute/">this</a> and{" "}
-        <a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github">
+        <a target="_blank" href="https://opensource.guide/how-to-contribute/">
+          this
+        </a>{" "}
+        and{" "}
+        <a
+          target="_blank"
+          href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github"
+        >
           this
         </a>
         . If you are still stuck, you can always ask for help on our{" "}
-        <a href="https://t.me/nushackers_chat">Telegram chat</a>.
+        <a target="_blank" href="https://t.me/nushackers_chat">
+          Telegram chat
+        </a>
+        .
       </Text>
     </Card>
   </Page>
