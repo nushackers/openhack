@@ -22,16 +22,16 @@ const Index = () => (
       </Text>
       <h2 className="text-xl font-black">Event Details</h2>
       <Text className="my-5">
-        The format of the event is quite straightforward &mdash; from 18th May
+        The format of the event is quite straightforward&mdash;from 18th May
         to 1st July, complete any one of the following challenges to receive
         limited-edition prizes!
       </Text>
       <Text className="my-2">Challenges:</Text>
       <ol className="mb-5">
         <li className="ml-5 my-1">
-          Make 3 valid Pull Requests (PRs) that satisfy the{" "}
+          Make 3 valid pull requests (PRs) that satisfy the{" "}
           <a href="#pr-standards">OpenHack Quality Standards</a> to any{" "}
-          <a href="#repos">NUS-related Open Source Repositories</a>
+          <a href="#repos">NUS-related open source repositories</a>
         </li>
         <li className="ml-5 my-1">
           Create and complete a fun new open source project of your own that
@@ -40,13 +40,13 @@ const Index = () => (
       </ol>
       <h3>Prizes</h3>
       <Text className="my-5">
-        Completion of ANY of the two challenges above will earn you{" "}
+        Completion of either one, or both, of the two challenges above will earn you{" "}
         <span className="font-medium">
-          1x free limited-edition event completion T-Shirt and stickers
+          a free limited-edition event completion T-shirt and stickers
         </span>
         .
       </Text>
-      <h3 id="repos">Approved NUS-related Repositories:</h3>
+      <h3 id="repos">Approved NUS-related repositories:</h3>
       <ul className="my-3">
         {approvedRepos.repos.map((repo) => (
           <li className="ml-5">
@@ -68,7 +68,7 @@ const Index = () => (
       </Text>
       <h2 className="text-xl font-black">Rules</h2>
       <Text className="my-5">
-        In the spirit of hacking, we’re keeping requirements to a minimum – any
+        In the spirit of hacking, we're keeping requirements to a minimum&mdash;any
         project that satisfies the quality standards is eligible for the prize.
         We are hoping that this encourages students (especially beginners) to
         build their own projects and share it with the community!
@@ -115,7 +115,7 @@ const Index = () => (
       <ul className="mb-5">
         <li className="ml-5 my-1">
           Project should be new and original, and not have come from any
-          previous work (Inspiration from previous works is okay, but plagiarism
+          previous work (inspiration from previous works is okay, but plagiarism
           is not)
         </li>
         <li className="ml-5 my-1">
@@ -127,14 +127,14 @@ const Index = () => (
             target="_blank"
             href="https://hacknroll2020.devpost.com/submissions"
           >
-            submissions for Hack&Roll 2020
+            submissions for Hack&amp;Roll 2020
           </a>{" "}
           (the rule of thumb is this: if your project shows some effort we will
           consider it as substantial)
         </li>
         <li className="ml-5 my-1">Project must be functional</li>
         <li className="ml-5 my-1">
-          Creation of the project repository should be after the launch of
+          Creation of the project repository must be after the launch of
           OpenHack
         </li>
         <li className="ml-5 my-1">
@@ -142,12 +142,12 @@ const Index = () => (
           the like. A video of the working project would be great!
         </li>
         <li className="ml-5 my-1">
-          Project should be self-initiated, and you cannot submit your work for
+          Project must be self-initiated, and you cannot submit your work for
           other commitments (e.g. work done for Orbital, CS2103, CS3281/82 and
           other modules is <span className="font-medium">not</span> acceptable)
         </li>
         <li className="ml-5 my-1">
-          Project should continue to stay open-source even after the event is
+          Project must continue to stay open-source even after the event is
           over
         </li>
       </ul>
@@ -158,11 +158,11 @@ const Index = () => (
       </Text>
       <h2 className="text-xl font-black">FAQs</h2>
       <FAQQuestion
-        question="Why are contributions only open to NUS-related open-source repositories?"
+        question="Why are contributions only open to NUS-related open source repositories?"
         answer="This is the first time we are running a challenge like this, so
-        we’d like to limit our scope to NUS-related repositories to see
+        we'd like to limit our scope to NUS-related repositories to see
         how it goes. Depending on the response, we might consider expanding the
-        scope of the challenge to non-NUS repositories as well, for future
+        scope of the challenge to non-NUS repositories as well for future
         iterations."
       />
       <FAQQuestion
@@ -170,20 +170,20 @@ const Index = () => (
         answer="Due to logistical constraints for delivering prizes,
         we can only open the challenge to students in Singapore."
       />
-      <FAQQuestion question="I am not a NUS-student, can I participate in the challenge?" />
+      <FAQQuestion question="I am not an NUS student. Can I participate in the challenge?" />
       <Text className="mb-5">
-        Of course! This challenge is open not just for NUS students, see the{" "}
-        <a href="#eligibility">section in the rules on Eligibility</a>.
+        Of course! This challenge is not just for NUS students; see the{" "}
+        <a href="#eligibility">section in the rules on eligibility</a>.
       </Text>
       <FAQQuestion
-        question="I am a postgraduate student, can I participate in the challenge?"
-        answer="Unfortunately, this challenge is not open for postgraduate students."
+        question="I am a postgraduate student. Can I participate in the challenge?"
+        answer="Unfortunately, this challenge is not open to postgraduate students."
       />
       <FAQQuestion
         question="Do the projects need to be self-initiated? Can I submit my internship / research / school work?"
         answer="Projects / contributions must be self-initiated. Work done for other commitments will not be accepted."
       />
-      <FAQQuestion question="I don’t know what Pull Requests (PRs) are? How do I get started?" />
+      <FAQQuestion question="I don't know what pull requests (PRs) are? How do I get started?" />
       <Text className="mb-5">
         Do take a look at{" "}
         <a target="_blank" href="https://opensource.guide/how-to-contribute/">
