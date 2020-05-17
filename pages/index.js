@@ -8,7 +8,9 @@ import approvedRepos from "../data/approved.json";
 const Index = () => (
   <Page title="OpenHack - NUS Hackers">
     <Card>
-      <h1 className="font-title my-5 text-5xl text-blue-800">OpenHack 2020</h1>
+      <h1 className="font-title text-center md:text-left my-5 text-4xl md:text-5xl text-indigo-700">
+        OpenHack 2020
+      </h1>
       <Text className="my-5">
         In light of the disruption of our regular events because of the COVID-19
         situation, we have started OpenHack. OpenHack is a new initiative by NUS
@@ -20,19 +22,20 @@ const Index = () => (
       </Text>
       <h2 className="text-xl font-black">Event Details</h2>
       <Text className="my-5">
-        The format of the event is quite straightforward – from 18th May to 1st
-        July, complete any one of the following challenges to receive
+        The format of the event is quite straightforward &mdash; from 18th May
+        to 1st July, complete any one of the following challenges to receive
         limited-edition prizes!
       </Text>
       <Text className="my-2">Challenges:</Text>
       <ol className="mb-5">
         <li className="ml-5 my-1">
-          Make 3 valid Pull Requests (PRs) that satisfy the OpenHack Quality
-          Standards to any NUS-related Open Source Repositories
+          Make 3 valid Pull Requests (PRs) that satisfy the{" "}
+          <a href="#pr-standards">OpenHack Quality Standards</a> to any
+          NUS-related Open Source Repositories
         </li>
         <li className="ml-5 my-1">
           Create and complete a fun new open source project of your own that
-          satisfies the OpenHack Quality Standards
+          satisfies the <a href="#proj-standards">OpenHack Quality Standards</a>
         </li>
       </ol>
       <h3>Prizes</h3>
@@ -86,7 +89,7 @@ const Index = () => (
       </ol>
 
       <h3>Quality Standards</h3>
-      <Text className="mt-5 mb-2">
+      <Text id="pr-standards" className="mt-5 mb-2">
         Valid PRs must meet the following criteria:
       </Text>
       <ul className="mb-5">
@@ -106,7 +109,7 @@ const Index = () => (
         </li>
       </ul>
 
-      <Text className="mt-5 mb-2">
+      <Text id="proj-standards" className="mt-5 mb-2">
         Valid self-initiated open-source projects must meet the following
         criteria:
       </Text>
@@ -117,7 +120,7 @@ const Index = () => (
           is not)
         </li>
         <li className="ml-5 my-1">
-          Software frameworks / libraries built by others are allowed
+          Usage of software frameworks / libraries built by others are allowed
         </li>
         <li className="ml-5 my-1">
           For ideas on what a project should look like, you can check out{" "}
