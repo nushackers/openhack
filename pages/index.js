@@ -2,6 +2,7 @@ import React from "react";
 import Page from "../components/Page";
 import Text from "../components/Text";
 import Card from "../components/Card";
+import FAQQuestion from "../components/FAQQuestion";
 import approvedRepos from "../data/approved.json";
 
 const Index = () => (
@@ -17,7 +18,7 @@ const Index = () => (
         students are definitely welcome to participate in this challenge as
         well!
       </Text>
-      <h2 className="text-lg font-bold">Event Details</h2>
+      <h2 className="text-xl font-black">Event Details</h2>
       <Text className="my-5">
         The format of the event is quite straightforward – from 18th May to 1st
         July, complete any one of the following challenges to receive
@@ -37,9 +38,9 @@ const Index = () => (
       <h3>Prizes</h3>
       <Text className="my-5">
         Completion of ANY of the two challenges above will earn you{" "}
-        <strong>
+        <span className="font-medium">
           1x free limited-edition event completion T-Shirt and some stickers
-        </strong>
+        </span>
         .
       </Text>
       <h3>Approved NUS-related Repositories:</h3>
@@ -54,10 +55,10 @@ const Index = () => (
         This is not an exhaustive list of allowed repositories and we are still
         building this list up along the way. If you want to contribute to any
         other NUS-related repositories, feel free to do so and write to us at{" "}
-        <a href="mailto:openhack@nushackers.org">openhack@nushackers.org</a> for
-        us to add to the list.
+        <a href="mailto:openhack@nushackers.org">openhack@nushackers.org</a>, so
+        that we can add to the list.
       </Text>
-      <h2 className="text-lg font-bold">Rules</h2>
+      <h2 className="text-xl font-black">Rules</h2>
       <Text className="my-5">
         In the spirit of hacking, we’re keeping requirements to a minimum – any
         project that satisfies the quality standards is eligible for the prize.
@@ -95,7 +96,8 @@ const Index = () => (
         <li className="ml-5 my-1">
           Work should be self-initiated, and you cannot submit your
           coursework/homework (e.g. - work done for Orbital, CS2103, CS3281/82
-          and other modules is <strong>not</strong> acceptable)
+          and other modules is <span className="font-medium">not</span>{" "}
+          acceptable)
         </li>
       </ul>
 
@@ -132,13 +134,55 @@ const Index = () => (
         <li className="ml-5 my-1">
           Project should be self-initiated, and you cannot submit your work for
           other commitments (e.g. - work done for Orbital, CS2103, CS3281/82 and
-          other modules is <strong>not</strong> acceptable)
+          other modules is <span className="font-medium">not</span> acceptable)
         </li>
         <li className="ml-5 my-1">
           Project should continue to stay open-source even after the event is
           over
         </li>
       </ul>
+      <h2 className="text-xl font-black">Submission</h2>
+      <Text className="my-5">
+        We will be updating this site with the submission process soon. Stay
+        tuned and start contributing now!
+      </Text>
+      <h2 className="text-xl font-black">FAQs</h2>
+      <FAQQuestion
+        question="Why are contributions only open to NUS-related open-source repositories?"
+        answer="This is the first time we are running a challenge like this, so
+        we’d like to limit our scope to NUS-related repositories to see
+        how it goes. Depending on the response, we might consider expanding the
+        scope of the challenge to non-NUS repositories as well, for future
+        iterations."
+      />
+      <FAQQuestion
+        question="Why is this event open only to students in Singapore?"
+        answer="Due to logistical constraints for delivering prizes,
+        we can only open the challenge to students in Singapore."
+      />
+      <FAQQuestion
+        question="I am not a NUS-student, can I participate in the challenge?"
+        answer="Of course! This challenge is open for not just NUS students, see
+        the section in the rules on Eligibility."
+      />
+      <FAQQuestion
+        question="I am a postgraduate student, can I participate in the challenge?"
+        answer="Unfortunately, this challenge is not open for postgraduate students."
+      />
+      <FAQQuestion
+        question="Do the projects need to be self-initiated? Can I submit my internship / research / school work?"
+        answer="Projects / contributions must be self-initiated. Work done for other commitments will not be accepted."
+      />
+      <FAQQuestion question="I don’t know what Pull Requests (PRs) are? How do I get started?" />
+      <Text className="mb-5">
+        Do take a look at{" "}
+        <a href="https://opensource.guide/how-to-contribute/">this</a> and{" "}
+        <a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github">
+          this
+        </a>
+        . If you are still stuck, you can always ask for help on our{" "}
+        <a href="https://t.me/nushackers_chat">Telegram chat</a>.
+      </Text>
     </Card>
   </Page>
 );
