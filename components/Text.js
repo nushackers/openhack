@@ -1,5 +1,6 @@
+import classnames from "classnames";
 const Text = ({ className, ...otherProps }) => (
-  <p className={className} {...otherProps}></p>
+  <p className={classnames("text-base", className)} {...otherProps}></p>
 );
 
 export default Text;
