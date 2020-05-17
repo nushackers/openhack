@@ -1,0 +1,36 @@
+{
+  "repos": [
+    {
+      "name": "NUSMods",
+      "url": "https://github.com/nusmodifications/nusmods"
+    },
+    {
+      "name": "Source Academy",
+      "url": "https://github.com/source-academy"
+    },
+    {
+      "name": "Coursemology",
+      "url": "https://github.com/Coursemology/coursemology2"
+    },
+    {
+      "name": "TEAMMATES",
+      "url": "https://github.com/teammates/teammates"
+    },
+    {
+      "name": "RepoSense",
+      "url": "https://github.com/reposense/reposense"
+    },
+    {
+      "name": "MarkBind",
+      "url": "https://github.com/MarkBind/markbind"
+    },
+    {
+      "name": "Fluminus",
+      "url": "https://github.com/indocomsoft/fluminus"
+    },
+    {
+      "name": "Pyfluminus",
+      "url": "https://github.com/raynoldng/pyfluminus"
+    }
+  ]
+}

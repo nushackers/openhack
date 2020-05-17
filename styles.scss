@@ -44,3 +44,20 @@ main {
     z-index: -1;
   }
 }
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+li {
+  display: list-item;
+  list-style-position: inside;
+}
+
+h6 {
+  font-weight: bold;
+}
