@@ -30,8 +30,8 @@ const Index = () => (
       <ol className="mb-5">
         <li className="ml-5 my-1">
           Make 3 valid Pull Requests (PRs) that satisfy the{" "}
-          <a href="#pr-standards">OpenHack Quality Standards</a> to any
-          NUS-related Open Source Repositories
+          <a href="#pr-standards">OpenHack Quality Standards</a> to any{" "}
+          <a href="#repos">NUS-related Open Source Repositories</a>
         </li>
         <li className="ml-5 my-1">
           Create and complete a fun new open source project of your own that
@@ -42,11 +42,11 @@ const Index = () => (
       <Text className="my-5">
         Completion of ANY of the two challenges above will earn you{" "}
         <span className="font-medium">
-          1x free limited-edition event completion T-Shirt and some stickers
+          1x free limited-edition event completion T-Shirt and stickers
         </span>
         .
       </Text>
-      <h3>Approved NUS-related Repositories:</h3>
+      <h3 id="repos">Approved NUS-related Repositories:</h3>
       <ul className="my-3">
         {approvedRepos.repos.map((repo) => (
           <li className="ml-5">
@@ -59,7 +59,7 @@ const Index = () => (
       </ul>
       <Text className="my-5">
         This is not an exhaustive list of allowed repositories and we are still
-        building this list up along the way. If you want to contribute to any
+        building up this list along the way. If you want to contribute to any
         other NUS-related repositories, feel free to do so and write to us at{" "}
         <a target="_blank" href="mailto:openhack@nushackers.org">
           openhack@nushackers.org
@@ -74,7 +74,7 @@ const Index = () => (
         build their own projects and share it with the community!
       </Text>
 
-      <h3>Eligibility</h3>
+      <h3 id="eligibility">Eligibility</h3>
       <Text className="mt-5 mb-2">This event is open to:</Text>
       <ol className="mb-5">
         <li className="ml-5 my-1">
@@ -98,14 +98,13 @@ const Index = () => (
           documentation changes)
         </li>
         <li className="ml-5 my-1">
-          Only pull requests made on the list of approved repositories are
-          counted
+          Only pull requests made on the{" "}
+          <a href="#repos">list of approved repositories</a> are counted
         </li>
         <li className="ml-5 my-1">
           Work should be self-initiated, and you cannot submit your
-          coursework/homework (e.g. - work done for Orbital, CS2103, CS3281/82
-          and other modules is <span className="font-medium">not</span>{" "}
-          acceptable)
+          coursework/homework (e.g. work done for Orbital, CS2103, CS3281/82 and
+          other modules is <span className="font-medium">not</span> acceptable)
         </li>
       </ul>
 
@@ -144,7 +143,7 @@ const Index = () => (
         </li>
         <li className="ml-5 my-1">
           Project should be self-initiated, and you cannot submit your work for
-          other commitments (e.g. - work done for Orbital, CS2103, CS3281/82 and
+          other commitments (e.g. work done for Orbital, CS2103, CS3281/82 and
           other modules is <span className="font-medium">not</span> acceptable)
         </li>
         <li className="ml-5 my-1">
@@ -171,11 +170,11 @@ const Index = () => (
         answer="Due to logistical constraints for delivering prizes,
         we can only open the challenge to students in Singapore."
       />
-      <FAQQuestion
-        question="I am not a NUS-student, can I participate in the challenge?"
-        answer="Of course! This challenge is open for not just NUS students, see
-        the section in the rules on Eligibility."
-      />
+      <FAQQuestion question="I am not a NUS-student, can I participate in the challenge?" />
+      <Text className="mb-5">
+        Of course! This challenge is open not just for NUS students, see the{" "}
+        <a href="#eligibility">section in the rules on Eligibility</a>.
+      </Text>
       <FAQQuestion
         question="I am a postgraduate student, can I participate in the challenge?"
         answer="Unfortunately, this challenge is not open for postgraduate students."
