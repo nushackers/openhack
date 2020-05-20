@@ -22,8 +22,8 @@ const Index = () => (
       </Text>
       <h2 className="text-xl font-black">Event Details</h2>
       <Text className="my-5">
-        The format of the event is quite straightforward&mdash;from 18th May
-        to 1st July, complete any one of the following challenges to receive
+        The format of the event is quite straightforward&mdash;from 18th May to
+        1st July, complete any one of the following challenges to receive
         limited-edition prizes!
       </Text>
       <Text className="my-2">Challenges:</Text>
@@ -40,7 +40,8 @@ const Index = () => (
       </ol>
       <h3>Prizes</h3>
       <Text className="my-5">
-        Completion of either one, or both, of the two challenges above will earn you{" "}
+        Completion of either one, or both, of the two challenges above will earn
+        you{" "}
         <span className="font-medium">
           a free limited-edition event completion T-shirt and stickers
         </span>
@@ -49,7 +50,7 @@ const Index = () => (
       <h3 id="repos">Approved NUS-related repositories</h3>
       <ul className="my-3">
         {approvedRepos.repos.map((repo) => (
-          <li className="ml-5">
+          <li key={repo.url} className="ml-5">
             {repo.name} &mdash;{" "}
             <a target="_blank" href={repo.url}>
               {repo.url}
@@ -68,10 +69,11 @@ const Index = () => (
       </Text>
       <h2 className="text-xl font-black">Rules</h2>
       <Text className="my-5">
-        In the spirit of hacking, we're keeping requirements to a minimum&mdash;any
-        project that satisfies the quality standards is eligible for the prize.
-        We are hoping that this encourages students (especially beginners) to
-        build their own projects and share it with the community!
+        In the spirit of hacking, we're keeping requirements to a
+        minimum&mdash;any project that satisfies the quality standards is
+        eligible for the prize. We are hoping that this encourages students
+        (especially beginners) to build their own projects and share it with the
+        community!
       </Text>
 
       <h3 id="eligibility">Eligibility</h3>
@@ -147,8 +149,7 @@ const Index = () => (
           other modules is <span className="font-medium">not</span> acceptable)
         </li>
         <li className="ml-5 my-1">
-          Project must continue to stay open-source even after the event is
-          over
+          Project must continue to stay open-source even after the event is over
         </li>
       </ul>
       <h2 className="text-xl font-black">Submission</h2>
