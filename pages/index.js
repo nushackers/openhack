@@ -8,9 +8,22 @@ import approvedRepos from "../data/approved.json";
 const Index = () => (
   <Page title="OpenHack - NUS Hackers">
     <Card>
-      <h1 className="font-title text-center md:text-left my-5 text-4xl md:text-5xl text-indigo-700">
-        OpenHack 2020
-      </h1>
+      <div className="font-title text-center">
+        <h1 className="mt-5 text-4xl md:text-5xl text-indigo-700">
+          OpenHack 2020
+        </h1>
+        <div className="mb-5 text-md md:text-lg">
+          by{" "}
+          <a
+            className="text-black"
+            target="_blank"
+            href="https://nushackers.org"
+          >
+            NUS Hackers
+          </a>
+        </div>
+      </div>
+
       <Text className="my-5">
         In light of the disruption of our regular events because of the COVID-19
         situation, we have started OpenHack. OpenHack is a new initiative by NUS
@@ -75,7 +88,6 @@ const Index = () => (
         (especially beginners) to build their own projects and share it with the
         community!
       </Text>
-
       <h3 id="eligibility">Eligibility</h3>
       <Text className="mt-5 mb-2">This event is open to:</Text>
       <ol className="mb-5">
@@ -89,7 +101,6 @@ const Index = () => (
         </li>
         <li className="ml-5 my-1">Full-time National Servicemen (NSFs)</li>
       </ol>
-
       <h3>Quality Standards</h3>
       <Text id="pr-standards" className="mt-5 mb-2">
         Valid PRs must meet the following criteria:
@@ -109,7 +120,6 @@ const Index = () => (
           other modules is <span className="font-medium">not</span> acceptable)
         </li>
       </ul>
-
       <Text id="proj-standards" className="mt-5 mb-2">
         Valid self-initiated open-source projects must meet the following
         criteria:
