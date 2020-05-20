@@ -1,6 +1,7 @@
 import React from "react";
 import Page from "../components/Page";
 import Text from "../components/Text";
+import Link from "next/link";
 
 const Index = () => (
   <Page>
@@ -22,12 +23,13 @@ const Index = () => (
     <ol className="mb-5">
       <li className="ml-5 my-1">
         Make 3 valid pull requests (PRs) that satisfy the{" "}
-        <a href="#pr-standards">OpenHack Quality Standards</a> to any{" "}
-        <a href="#repos">NUS-related open source repositories</a>
+        <Link href="rules#pr-standards">OpenHack Quality Standards</Link> to any{" "}
+        <Link href="rules#repos">NUS-related open source repositories</Link>
       </li>
       <li className="ml-5 my-1">
         Create and complete a fun new open source project of your own that
-        satisfies the <a href="#proj-standards">OpenHack Quality Standards</a>
+        satisfies the{" "}
+        <Link href="rules#proj-standards">OpenHack Quality Standards</Link>
       </li>
     </ol>
     <h3>Prizes</h3>

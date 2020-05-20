@@ -1,32 +1,33 @@
 import React from "react";
 import Page from "../components/Page";
 import Text from "../components/Text";
+import Link from "next/link";
 import FAQQuestion from "../components/FAQQuestion";
 import approvedRepos from "../data/approved.json";
 
-const Index = () => (
+const Rules = () => (
   <Page>
     <h2 className="text-xl font-black">Rules</h2>
-    <Text className="my-5">
+    <Text id="eligibility" className="my-5">
       In the spirit of hacking, we're keeping requirements to a
       minimum&mdash;any project that satisfies the quality standards is eligible
       for the prize. We are hoping that this encourages students (especially
       beginners) to build their own projects and share it with the community!
     </Text>
-    <h3 id="eligibility">Eligibility</h3>
+    <h3>Eligibility</h3>
     <Text className="mt-5 mb-2">This event is open to:</Text>
     <ol className="mb-5">
       <li className="ml-5 my-1">
         Students in ANY educational institution in Singapore, anywhere from
         primary school to undergraduate studies
       </li>
-      <li className="ml-5 my-1">
+      <li id="repos" className="ml-5 my-1">
         Anyone awaiting entry into an educational institution in Singapore (from
         primary school to undergraduate studies)
       </li>
       <li className="ml-5 my-1">Full-time National Servicemen (NSFs)</li>
     </ol>
-    <h3 id="repos">Approved NUS-related repositories</h3>
+    <h3>Approved NUS-related repositories</h3>
     <ul className="my-3">
       {approvedRepos.repos.map((repo) => (
         <li key={repo.url} className="ml-5">
@@ -37,7 +38,7 @@ const Index = () => (
         </li>
       ))}
     </ul>
-    <Text className="my-5">
+    <Text id="pr-standards" className="my-5">
       This is not an exhaustive list of allowed repositories and we are still
       building up this list along the way. If you want to contribute to any
       other NUS-related repositories, feel free to do so and write to us at{" "}
@@ -47,7 +48,7 @@ const Index = () => (
       , so that we can add to the list.
     </Text>
     <h3>Quality Standards</h3>
-    <Text id="pr-standards" className="mt-5 mb-2">
+    <Text className="mt-5 mb-2">
       Valid PRs must meet the following criteria:
     </Text>
     <ul className="mb-5">
@@ -55,7 +56,7 @@ const Index = () => (
         Has to be non-trivial (i.e. more than typo fixes or small documentation
         changes)
       </li>
-      <li className="ml-5 my-1">
+      <li id="proj-standards" className="ml-5 my-1">
         Only pull requests made on the{" "}
         <a href="#repos">list of approved repositories</a> are counted
       </li>
@@ -65,7 +66,7 @@ const Index = () => (
         other modules is <span className="font-medium">not</span> acceptable)
       </li>
     </ul>
-    <Text id="proj-standards" className="mt-5 mb-2">
+    <Text className="mt-5 mb-2">
       Valid self-initiated open-source projects must meet the following
       criteria:
     </Text>
@@ -131,24 +132,9 @@ const Index = () => (
     />
     <FAQQuestion question="I don't know what pull requests (PRs) are? How do I get started?" />
     <Text className="mb-5">
-      Do take a look at{" "}
-      <a target="_blank" href="https://opensource.guide/how-to-contribute/">
-        this
-      </a>{" "}
-      and{" "}
-      <a
-        target="_blank"
-        href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github"
-      >
-        this
-      </a>
-      . If you are still stuck, you can always ask for help on our{" "}
-      <a target="_blank" href="https://t.me/nushackers_chat">
-        Telegram chat
-      </a>
-      .
+      Take a look at <Link href="start">our Getting Started page here</Link>.
     </Text>
   </Page>
 );
 
-export default Index;
+export default Rules;

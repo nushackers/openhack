@@ -2,7 +2,7 @@ import React from "react";
 import Page from "../components/Page";
 import Text from "../components/Text";
 
-const Index = () => (
+const Submit = () => (
   <Page>
     <h2 className="text-xl font-black">Submission</h2>
     <Text className="my-5">
@@ -12,4 +12,4 @@ const Index = () => (
   </Page>
 );
 
-export default Index;
+export default Submit;
