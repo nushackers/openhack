@@ -65,3 +65,8 @@ h3 {
 a {
   color: rgb(0, 3, 153);
 }
+
+.header {
+  background: $bg-purple;
+  background: linear-gradient(135deg, $bg-purple, $bg-indigo);
+}

@@ -1,6 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Card from "./Card";
+import NavBar from "./NavBar";
 
 const Page = ({ title, children }) => {
   return (
@@ -15,27 +16,29 @@ const Page = ({ title, children }) => {
           of hacking amongst students."
         />
       </Head>
-      <main className="">
-        {" "}
-        <Card>
-          <div className="font-title text-center">
-            <h1 className="mt-5 text-4xl md:text-5xl text-indigo-700">
-              OpenHack 2020
-            </h1>
-            <div className="mb-5 text-md md:text-lg">
-              by{" "}
-              <a
-                className="text-black"
-                target="_blank"
-                href="https://nushackers.org"
-              >
-                NUS Hackers
-              </a>
+      <body>
+        <NavBar />
+        <main className="">
+          <Card>
+            <div className="font-title text-center">
+              <h1 className="mt-5 text-4xl md:text-5xl text-indigo-700">
+                OpenHack 2020
+              </h1>
+              <div className="mb-5 text-md md:text-lg">
+                by{" "}
+                <a
+                  className="text-black"
+                  target="_blank"
+                  href="https://nushackers.org"
+                >
+                  NUS Hackers
+                </a>
+              </div>
             </div>
-          </div>
-          {children}
-        </Card>
-      </main>
+            {children}
+          </Card>
+        </main>
+      </body>
     </>
   );
 };
