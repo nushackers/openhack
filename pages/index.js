@@ -60,26 +60,7 @@ const Index = () => (
         </span>
         .
       </Text>
-      <h3 id="repos">Approved NUS-related repositories</h3>
-      <ul className="my-3">
-        {approvedRepos.repos.map((repo) => (
-          <li key={repo.url} className="ml-5">
-            {repo.name} &mdash;{" "}
-            <a target="_blank" href={repo.url}>
-              {repo.url}
-            </a>
-          </li>
-        ))}
-      </ul>
-      <Text className="my-5">
-        This is not an exhaustive list of allowed repositories and we are still
-        building up this list along the way. If you want to contribute to any
-        other NUS-related repositories, feel free to do so and write to us at{" "}
-        <a target="_blank" href="mailto:openhack@nushackers.org">
-          openhack@nushackers.org
-        </a>
-        , so that we can add to the list.
-      </Text>
+
       <h2 className="text-xl font-black">Rules</h2>
       <Text className="my-5">
         In the spirit of hacking, we're keeping requirements to a
@@ -101,6 +82,26 @@ const Index = () => (
         </li>
         <li className="ml-5 my-1">Full-time National Servicemen (NSFs)</li>
       </ol>
+      <h3 id="repos">Approved NUS-related repositories</h3>
+      <ul className="my-3">
+        {approvedRepos.repos.map((repo) => (
+          <li key={repo.url} className="ml-5">
+            {repo.name} &mdash;{" "}
+            <a target="_blank" href={repo.url}>
+              {repo.url}
+            </a>
+          </li>
+        ))}
+      </ul>
+      <Text className="my-5">
+        This is not an exhaustive list of allowed repositories and we are still
+        building up this list along the way. If you want to contribute to any
+        other NUS-related repositories, feel free to do so and write to us at{" "}
+        <a target="_blank" href="mailto:openhack@nushackers.org">
+          openhack@nushackers.org
+        </a>
+        , so that we can add to the list.
+      </Text>
       <h3>Quality Standards</h3>
       <Text id="pr-standards" className="mt-5 mb-2">
         Valid PRs must meet the following criteria:
