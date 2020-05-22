@@ -16,8 +16,20 @@
     "sass": "^1.26.5",
     "tailwindcss": "^1.4.6"
   },
+  "lint-staged": {
+    "./**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "devDependencies": {
     "eslint": "^7.0.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.6",
     "prettier": "^2.0.5"
   }
 }
