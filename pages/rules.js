@@ -132,7 +132,11 @@ const Rules = () => (
     />
     <FAQQuestion question="I don't know what pull requests (PRs) are? How do I get started?" />
     <Text className="mb-5">
-      Take a look at <Link href="start">our Getting Started page here</Link>.
+      Take a look at{" "}
+      <Link href="start">
+        <a>our Getting Started page here</a>
+      </Link>
+      .
     </Text>
   </Page>
 );

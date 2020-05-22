@@ -23,13 +23,20 @@ const Index = () => (
     <ol className="mb-5">
       <li className="ml-5 my-1">
         Make 3 valid pull requests (PRs) that satisfy the{" "}
-        <Link href="rules#pr-standards">OpenHack Quality Standards</Link> to any{" "}
-        <Link href="rules#repos">NUS-related open source repositories</Link>
+        <Link href="rules#pr-standards">
+          <a>OpenHack Quality Standards</a>
+        </Link>{" "}
+        to any{" "}
+        <Link href="rules#repos">
+          <a>NUS-related open source repositories</a>
+        </Link>
       </li>
       <li className="ml-5 my-1">
         Create and complete a fun new open source project of your own that
         satisfies the{" "}
-        <Link href="rules#proj-standards">OpenHack Quality Standards</Link>
+        <Link href="rules#proj-standards">
+          <a>OpenHack Quality Standards</a>
+        </Link>
       </li>
     </ol>
     <h3>Prizes</h3>
