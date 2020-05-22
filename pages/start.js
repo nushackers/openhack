@@ -139,6 +139,37 @@ const Start = () => (
     </ol>
 
     <br />
+    <h3>Examples</h3>
+    <br />
+    <Text className="mb-5">
+      Here are some examples of good PR that adhere to the standards of
+      OpenHack:
+    </Text>
+    <ol className="mb-5">
+      <li className="ml-5 my-1">
+        <a target="_blank" href="https://github.com/MarkBind/markbind/pull/974">
+          Fix plugin live reloading for relative file paths
+        </a>
+      </li>
+      <li className="ml-5 my-1">
+        <a
+          target="_blank"
+          href="https://github.com/nusmodifications/nusmods/pull/2449"
+        >
+          Highlight today on exam calendar
+        </a>
+      </li>
+      <li className="ml-5 my-1">
+        <a
+          target="_blank"
+          href="https://github.com/source-academy/cadet/pull/196"
+        >
+          Complete lambda integration
+        </a>
+      </li>
+    </ol>
+
+    <br />
     <h3>Looking for Help?</h3>
     <br />
     <Text className="mb-5">
