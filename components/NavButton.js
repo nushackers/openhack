@@ -5,8 +5,8 @@ import classnames from "classnames";
 const navBtn = ({ href, nomargin, children }) => {
   const pathname = useRouter().pathname;
   return (
-    <Link className="inline-block" href={href}>
-      <a>
+    <Link href={href}>
+      <a className="inline-block">
         <span
           className={classnames(
             { "mr-6": !nomargin },
