@@ -1,8 +1,10 @@
 import React from "react";
-import Page from "../components/Page";
-import Text from "../components/Text";
 import Link from "next/link";
-import FAQQuestion from "../components/FAQQuestion";
+
+import { Page } from "../components/Page";
+import { Text } from "../components/Text";
+import { FAQQuestion } from "../components/FAQQuestion";
+
 import approvedRepos from "../data/approved.json";
 
 const Rules = () => (
@@ -32,7 +34,7 @@ const Rules = () => (
       {approvedRepos.repos.map((repo) => (
         <li key={repo.url} className="ml-5">
           {repo.name} &mdash;{" "}
-          <a target="_blank" href={repo.url}>
+          <a target="_blank" href={repo.url} rel="noopener noreferrer">
             {repo.url}
           </a>
         </li>
@@ -42,7 +44,11 @@ const Rules = () => (
       This is not an exhaustive list of allowed repositories and we are still
       building up this list along the way. If you want to contribute to any
       other NUS-related repositories, feel free to do so and write to us at{" "}
-      <a target="_blank" href="mailto:openhack@nushackers.org">
+      <a
+        target="_blank"
+        href="mailto:openhack@nushackers.org"
+        rel="noopener noreferrer"
+      >
         openhack@nushackers.org
       </a>
       , so that we can add to the list.
@@ -117,11 +123,15 @@ const Rules = () => (
       answer="Due to logistical constraints for delivering prizes,
         we can only open the challenge to students in Singapore."
     />
-    <FAQQuestion question="I am not an NUS student. Can I participate in the challenge?" />
-    <Text className="mb-5">
-      Of course! This challenge is not just for NUS students; see the{" "}
-      <a href="#eligibility">section in the rules on eligibility</a>.
-    </Text>
+    <FAQQuestion
+      question="I am not an NUS student. Can I participate in the challenge?"
+      answer={
+        <Text>
+          Of course! This challenge is not just for NUS students; see the{" "}
+          <a href="#eligibility">section in the rules on eligibility</a>.
+        </Text>
+      }
+    />
     <FAQQuestion
       question="I am a postgraduate student. Can I participate in the challenge?"
       answer="Unfortunately, this challenge is not open to postgraduate students."
@@ -130,14 +140,18 @@ const Rules = () => (
       question="Do the projects need to be self-initiated? Can I submit my internship / research / school work?"
       answer="Projects / contributions must be self-initiated. Work done for other commitments will not be accepted."
     />
-    <FAQQuestion question="I don't know what pull requests (PRs) are? How do I get started?" />
-    <Text className="mb-5">
-      Take a look at{" "}
-      <Link href="start">
-        <a>our Getting Started page here</a>
-      </Link>
-      .
-    </Text>
+    <FAQQuestion
+      question="I don't know what pull requests (PRs) are? How do I get started?"
+      answer={
+        <Text>
+          Take a look at{" "}
+          <Link href="start">
+            <a>our Getting Started page here</a>
+          </Link>
+          .
+        </Text>
+      }
+    />
   </Page>
 );
 
