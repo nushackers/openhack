@@ -12,17 +12,16 @@ const Start = () => (
       we will help you to get started to work on open source projects.
     </Text>
 
-    <br />
     <h3>Using Git</h3>
-    <br />
-    <Text className="mb-5">
+
+    <Text className="my-5">
       Open source projects are typically maintained using git and made available
-      online through git hosting services (e.g., GitHub, GitLab, and BitBucket).
+      online through git hosting services (e.g. GitHub, GitLab, and BitBucket).
       Before you start contributing to existing projects or even building your
       own projects, it would be wise to understand how people collaborate using
       git.
     </Text>
-    <Text className="mb-5">
+    <Text className="mt-5 mb-2">
       The following are some of the online resources that can help you to
       understand how to use git:
     </Text>
@@ -37,64 +36,62 @@ const Start = () => (
       </li>
       <li className="ml-5 my-1">
         <a target="_blank" href="https://orb2020-git.github.io/">
-          Introduction to Git - Orbital 2020
+          Introduction to Git - Orbital 2020 by Hao Wei
         </a>
       </li>
     </ol>
 
-    <br />
-    <h3>How to Contribute</h3>
-    <br />
-    <Text className="mb-5">
+    <h3>Contributing to Open Source Projects</h3>
+    <Text className="my-5">
       To contribute toward an open source project, the following are typically
       some of the steps that you may need to go through:
     </Text>
     <ol className="mb-5">
       <li className="ml-5 my-1">
-        Find the project of your interest and look at how you could contribute
+        Find the project of your interest and look at how you can contribute.
       </li>
       <li className="ml-5 my-1">
-        Open an issue that explains what you want to improve (e.g., bug report,
+        Open an issue that explains what you want to improve (e.g. bug report,
         feature request, clean-up request, etc.), because the problem that you
-        see may not occur as a problem for other people (remember those memes
+        see may not look like a problem for other people (remember those memes
         saying "it's not a bug, it's a feature").
       </li>
       <li className="ml-5 my-1">
-        Once it is confirmed, offer your help and ask for the guide from those
+        Once it is confirmed, offer your help and ask for guidance from those
         who are more experienced in the project on how you can make changes.
-        Each project usually has its own styles and design pattern, you may need
-        to adhere to them in order to avoid introducing a lot of breaking
-        changes.
+        Each project might have its own styles and design patterns (you can spot
+        these easily if they have a contribution guide on their README). If they
+        do have them, you should adhere to them to follow the project's
+        conventions.
       </li>
       <li className="ml-5 my-1">
-        Fork the repository and create a branch for you to implement your code.
+        Fork the repository and create a branch for you to make your changes.
       </li>
       <li className="ml-5 my-1">
-        Keep your code human-readable and commit step-by-step. Make sure that
-        people who will review your code can easily understand your
-        implementation.
+        Finally, make your changes! Make sure to keep your code human-readable
+        and create commits whenever you achieve a portion of the task or make
+        notable changes. Make sure that people who will review your code can
+        easily understand your implementation.
       </li>
       <li className="ml-5 my-1">
-        Submit a PR (Pull request) to the project repository and ask for review
-        from those who have write access in the repository (usually the active
-        contributors).
+        Submit a PR (pull request) to the project repository and wait for
+        reviews from the maintainers of the repository.
       </li>
     </ol>
-    <br />
-    <Text>
-      Since open source projects vary in terms of the tech stack and concepts
-      that you need to understand before being able to contribute, the best
-      guide is probably to read their documentation directly.
+
+    <Text className="my-5">
+      Since open source projects vary in terms of the technologies they use and
+      concepts that you need to understand before being able to contribute, the
+      best guide is probably to read their documentation directly.
     </Text>
-    <br />
-    <Text>
-      The following are some of the resources that can help you to understand
-      how to contribute to open source projects:
+    <Text className="my-5">
+      The following are some resources that can help you to understand how to
+      contribute to open source projects:
     </Text>
     <ol className="mb-5">
       <li className="ml-5 my-1">
         <a target="_blank" href="https://opensource.guide/how-to-contribute/">
-          How to Contribute
+          Open Source Guides - How to Contribute to Open Source?
         </a>
       </li>
       <li className="ml-5 my-1">
@@ -102,25 +99,16 @@ const Start = () => (
           target="_blank"
           href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github"
         >
-          How to Create Pull Request
+          DigitalOcean Open Source Tutorial Series - How to Create a Pull
+          Request on GitHub
         </a>
       </li>
     </ol>
 
-    <br />
     <h3>Start Your Own Project</h3>
-    <br />
-    <Text className="mb-5">
-      We also understand that some of you probably enjoy more to build your own
-      things! It is a great pleasure to see how people continuously showcase
-      their innovation ideas in the open source community. However, before you
-      start, it might be a good idea to follow some best practices in the area
-      that you will be working on. It is important to ensure that other people
-      can also understand your code and contribute toward the project.
-    </Text>
-    <Text className="mb-5">
-      The following are some of the resources that can help you in building your
-      own project:
+    <Text className="mt-5 mb-2">
+      Some of you probably enjoy building your own projects more! To help you
+      get started with that, here are some resources that might be useful:
     </Text>
     <ol className="mb-5">
       <li className="ml-5 my-1">
@@ -128,20 +116,18 @@ const Start = () => (
           target="_blank"
           href="https://github.com/danistefanovic/build-your-own-x"
         >
-          Build Your Own X
+          Daniel Stefanovic - Build Your Own X
         </a>
       </li>
       <li className="ml-5 my-1">
         <a target="_blank" href="https://roadmap.sh/">
-          Roadmap
+          Web Developer Roadmaps
         </a>
       </li>
     </ol>
 
-    <br />
     <h3>Examples</h3>
-    <br />
-    <Text className="mb-5">
+    <Text className="my-5">
       Here are some examples of good PR that adhere to the standards of
       OpenHack:
     </Text>
@@ -169,11 +155,10 @@ const Start = () => (
       </li>
     </ol>
 
-    <br />
     <h3>Looking for Help?</h3>
-    <br />
-    <Text className="mb-5">
-      If you are still stuck, you can always ask for help on our{" "}
+    <Text className="my-5">
+      If you want to discuss ideas or require any help, you can always join our
+      community at our{" "}
       <a target="_blank" href="https://t.me/nushackers_chat">
         Telegram chat
       </a>
