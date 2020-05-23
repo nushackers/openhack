@@ -85,7 +85,11 @@ const Rules = () => (
       </li>
       <li className="ml-5 my-1">
         For ideas on what a project should look like, you can check out{" "}
-        <a target="_blank" href="https://hacknroll2020.devpost.com/submissions">
+        <a
+          target="_blank"
+          href="https://hacknroll2020.devpost.com/submissions"
+          rel="noopener noreferrer"
+        >
           submissions for Hack&amp;Roll 2020
         </a>{" "}
         (the rule of thumb is this: if your project shows some effort we will
