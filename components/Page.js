@@ -1,7 +1,7 @@
 import Head from "next/head";
 import React from "react";
 import Card from "./Card";
-import NavBar from "./NavBar";
+import { NavBar } from "./NavBar";
 
 const Page = ({ title, children }) => {
   return (
@@ -18,7 +18,7 @@ const Page = ({ title, children }) => {
       </Head>
       <body>
         <NavBar />
-        <main className="">
+        <main className="pt-12">
           <Card>
             <div className="font-title text-center">
               <h1 className="mt-5 text-4xl md:text-5xl text-indigo-700">
