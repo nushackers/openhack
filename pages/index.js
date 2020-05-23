@@ -1,7 +1,8 @@
 import React from "react";
-import Page from "../components/Page";
-import Text from "../components/Text";
 import Link from "next/link";
+
+import { Page } from "../components/Page";
+import { Text } from "../components/Text";
 
 const Index = () => (
   <Page>
@@ -40,7 +41,7 @@ const Index = () => (
       </li>
     </ol>
     <h3>Prizes</h3>
-    <Text className="my-5">
+    <Text className="mt-5">
       Completion of either one, or both, of the two challenges above will earn
       you{" "}
       <span className="font-medium">
