@@ -1,7 +1,7 @@
 import React from "react";
 
-import Page from "../components/Page";
-import Text from "../components/Text";
+import { Page } from "../components/Page";
+import { Text } from "../components/Text";
 
 const Start = () => (
   <Page>
@@ -30,16 +30,25 @@ const Start = () => (
         <a
           target="_blank"
           href="https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/"
+          rel="noopener noreferrer"
         >
           An introduction to Git: what it is, and how to use it
         </a>
       </li>
       <li className="ml-5 my-1">
-        <a target="_blank" href="https://orb2020-git.github.io/">
+        <a
+          target="_blank"
+          href="https://orb2020-git.github.io/"
+          rel="noopener noreferrer"
+        >
           Introduction to Git - Orbital 2020 by Hao Wei
         </a>{" "}
         (
-        <a target="_blank" href="https://www.youtube.com/watch?v=nc93yOGgP14">
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=nc93yOGgP14"
+          rel="noopener noreferrer"
+        >
           Video here
         </a>
         )
@@ -107,7 +116,11 @@ const Start = () => (
     </Text>
     <ol className="mb-5">
       <li className="ml-5 my-1">
-        <a target="_blank" href="https://opensource.guide/how-to-contribute/">
+        <a
+          target="_blank"
+          href="https://opensource.guide/how-to-contribute/"
+          rel="noopener noreferrer"
+        >
           Open Source Guides - How to Contribute to Open Source?
         </a>
       </li>
@@ -115,6 +128,7 @@ const Start = () => (
         <a
           target="_blank"
           href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github"
+          rel="noopener noreferrer"
         >
           DigitalOcean Open Source Tutorial Series - How to Create a Pull
           Request on GitHub
@@ -128,7 +142,11 @@ const Start = () => (
     </Text>
     <ol className="mb-5">
       <li className="ml-5 my-1">
-        <a target="_blank" href="https://github.com/MarkBind/markbind/pull/974">
+        <a
+          target="_blank"
+          href="https://github.com/MarkBind/markbind/pull/974"
+          rel="noopener noreferrer"
+        >
           MarkBind - Fix plugin live reloading for relative file paths
         </a>
       </li>
@@ -136,6 +154,7 @@ const Start = () => (
         <a
           target="_blank"
           href="https://github.com/nusmodifications/nusmods/pull/2449"
+          rel="noopener noreferrer"
         >
           NUSMods - Highlight today on exam calendar
         </a>
@@ -152,17 +171,22 @@ const Start = () => (
         <a
           target="_blank"
           href="https://github.com/danistefanovic/build-your-own-x"
+          rel="noopener noreferrer"
         >
           Daniel Stefanovic - Build Your Own X
         </a>
       </li>
       <li className="ml-5 my-1">
-        <a target="_blank" href="https://roadmap.sh/">
+        <a target="_blank" href="https://roadmap.sh/" rel="noopener noreferrer">
           Web Developer Roadmaps
         </a>
       </li>
       <li className="ml-5 my-1">
-        <a target="_blank" href="https://school.nushackers.org/">
+        <a
+          target="_blank"
+          href="https://school.nushackers.org/"
+          rel="noopener noreferrer"
+        >
           NUS Hackers - Hackerschool
         </a>
       </li>
@@ -172,7 +196,11 @@ const Start = () => (
     <Text className="my-5">
       If you want to discuss ideas or require any help, you can always join our
       community at our{" "}
-      <a target="_blank" href="https://t.me/nushackers_chat">
+      <a
+        target="_blank"
+        href="https://t.me/nushackers_chat"
+        rel="noopener noreferrer"
+      >
         Telegram chat
       </a>
       .
