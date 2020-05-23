@@ -17,31 +17,30 @@ export const Page = ({ title, children }) => {
           of hacking amongst students."
         />
       </Head>
-      <body>
-        <NavBar />
 
-        <main className="pt-12">
-          <Card>
-            <div className="font-title text-center mb-5">
-              <h1 className="text-4xl md:text-5xl text-indigo-700">
-                OpenHack 2020
-              </h1>
-              <span className="text-md md:text-lg">
-                by{" "}
-                <a
-                  target="_blank"
-                  href="https://nushackers.org"
-                  rel="noopener noreferrer"
-                >
-                  NUS Hackers
-                </a>
-              </span>
-            </div>
+      <NavBar />
 
-            {children}
-          </Card>
-        </main>
-      </body>
+      <main className="pt-12">
+        <Card>
+          <div className="font-title text-center mb-5">
+            <h1 className="text-4xl md:text-5xl text-indigo-700">
+              OpenHack 2020
+            </h1>
+            <span className="text-md md:text-lg">
+              by{" "}
+              <a
+                target="_blank"
+                href="https://nushackers.org"
+                rel="noopener noreferrer"
+              >
+                NUS Hackers
+              </a>
+            </span>
+          </div>
+
+          {children}
+        </Card>
+      </main>
     </>
   );
 };
