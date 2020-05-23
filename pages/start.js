@@ -1,8 +1,7 @@
 import React from "react";
-import Page from "../components/Page";
-import Text from "../components/Text";
-import FAQQuestion from "../components/FAQQuestion";
-import approvedRepos from "../data/approved.json";
+
+import { Page } from "../components/Page";
+import { Text } from "../components/Text";
 
 const Start = () => (
   <Page>
@@ -11,20 +10,29 @@ const Start = () => (
       Not sure how to start? Here are some resources that we've collated to help
       you get started!
     </Text>
-    <Text className="mb-5">
+    <Text>
       Do take a look at{" "}
-      <a target="_blank" href="https://opensource.guide/how-to-contribute/">
+      <a
+        target="_blank"
+        href="https://opensource.guide/how-to-contribute/"
+        rel="noopener noreferrer"
+      >
         this
       </a>{" "}
       and{" "}
       <a
         target="_blank"
         href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github"
+        rel="noopener noreferrer"
       >
         this
       </a>
       . If you are still stuck, you can always ask for help on our{" "}
-      <a target="_blank" href="https://t.me/nushackers_chat">
+      <a
+        target="_blank"
+        href="https://t.me/nushackers_chat"
+        rel="noopener noreferrer"
+      >
         Telegram chat
       </a>
       .
