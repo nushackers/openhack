@@ -33,9 +33,8 @@ const Rules = () => (
     <ul className="my-3">
       {approvedRepos.repos.map((repo) => (
         <li key={repo.url} className="ml-5">
-          {repo.name} &mdash;{" "}
           <a target="_blank" href={repo.url} rel="noopener noreferrer">
-            {repo.url}
+            {repo.name}
           </a>
         </li>
       ))}
