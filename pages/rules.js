@@ -9,16 +9,16 @@ import approvedRepos from "../data/approved.json";
 
 const Rules = () => (
   <Page>
-    <h2 className="text-xl font-black">Rules</h2>
+    <h2 className="text-xl lg:text-2xl font-black">Rules</h2>
     <Text id="eligibility" className="my-5">
       In the spirit of hacking, we're keeping requirements to a
       minimum&mdash;any project that satisfies the quality standards is eligible
       for the prize. We are hoping that this encourages students (especially
       beginners) to build their own projects and share it with the community!
     </Text>
-    <h3>Eligibility</h3>
+    <h3 className="lg:text-xl">Eligibility</h3>
     <Text className="mt-5 mb-2">This event is open to:</Text>
-    <ol className="mb-5">
+    <ol className="list-decimal list-inside mb-5">
       <li className="ml-5 my-1">
         Students in ANY educational institution in Singapore, anywhere from
         primary school to undergraduate studies
@@ -29,8 +29,8 @@ const Rules = () => (
       </li>
       <li className="ml-5 my-1">Full-time National Servicemen (NSFs)</li>
     </ol>
-    <h3>Approved NUS-related repositories</h3>
-    <ul className="my-3">
+    <h3 className="lg:text-xl">Approved NUS-related repositories</h3>
+    <ul className="list-disc list-inside my-3">
       {approvedRepos.repos.map((repo) => (
         <li key={repo.url} className="ml-5">
           <a target="_blank" href={repo.url} rel="noopener noreferrer">
@@ -52,11 +52,11 @@ const Rules = () => (
       </a>
       , so that we can add to the list.
     </Text>
-    <h3>Quality Standards</h3>
+    <h3 className="lg:text-xl">Quality Standards</h3>
     <Text className="mt-5 mb-2">
       Valid PRs must meet the following criteria:
     </Text>
-    <ul className="mb-5">
+    <ul className="list-disc list-inside mb-5">
       <li className="ml-5 my-1">
         Has to be non-trivial (i.e. more than typo fixes or small documentation
         changes)
@@ -75,7 +75,7 @@ const Rules = () => (
       Valid self-initiated open-source projects must meet the following
       criteria:
     </Text>
-    <ul className="mb-5">
+    <ul className="list-disc list-inside mb-5">
       <li className="ml-5 my-1">
         Project should be new and original, and not have come from any previous
         work (inspiration from previous works is okay, but plagiarism is not)
@@ -112,7 +112,7 @@ const Rules = () => (
         Project must continue to stay open-source even after the event is over
       </li>
     </ul>
-    <h2 className="text-xl font-black">FAQs</h2>
+    <h2 className="text-xl lg:text-2xl font-black">FAQs</h2>
     <FAQQuestion
       question="Why are contributions only open to NUS-related open source repositories?"
       answer="This is the first time we are running a challenge like this, so

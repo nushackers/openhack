@@ -5,7 +5,7 @@ import { Text } from "../components/Text";
 
 const Submit = () => (
   <Page>
-    <h2 className="text-xl font-black">Submission</h2>
+    <h2 className="text-xl lg:text-2xl font-black">Submission</h2>
     <Text className="mt-5">
       We will be updating this site with the submission process soon. Stay tuned
       and start contributing now!

@@ -5,14 +5,14 @@ import { Text } from "../components/Text";
 
 const Start = () => (
   <Page>
-    <h2 className="text-xl font-black">Getting Started</h2>
+    <h2 className="text-xl lg:text-2xl font-black">Getting Started</h2>
     <Text className="my-5">
       Not sure how to start? Fret not! Even experienced contributors were once
       in your position. In this section, we will help you to get started to work
       on open source projects.
     </Text>
 
-    <h3>Using Git</h3>
+    <h3 className="lg:text-xl">Using Git</h3>
 
     <Text className="my-5">
       Open source projects are typically maintained using git and made available
@@ -25,7 +25,7 @@ const Start = () => (
       The following are some of the online resources that can help you to
       understand how to use git:
     </Text>
-    <ol className="mb-5">
+    <ol className="list-decimal list-inside mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"
@@ -49,21 +49,21 @@ const Start = () => (
           href="https://www.youtube.com/watch?v=nc93yOGgP14"
           rel="noopener noreferrer"
         >
-          Video here
+          Video
         </a>
         )
       </li>
     </ol>
 
-    <h3>Contributing to Open Source Projects</h3>
+    <h3 className="lg:text-xl">Contributing to Open Source Projects</h3>
     <Text className="my-5">
       To contribute toward an open source project, the following are typically
       some of the steps that you may need to go through:
     </Text>
-    <ol className="mb-5">
+    <ol className="list-decimal list-inside mb-5">
       <li className="ml-5 my-1">
         Find a project of your interest and look at how you can contribute.
-        <ul>
+        <ul className="list-disc list-inside">
           <li className="ml-8 my-1">
             Either visit their issue tracker (under "Issues" in their
             repository) to find an issue that the maintainers need help with,
@@ -114,7 +114,7 @@ const Start = () => (
       The following are some resources that can help you to understand how to
       contribute to open source projects:
     </Text>
-    <ol className="mb-5">
+    <ol className="list-decimal list-inside mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"
@@ -140,7 +140,7 @@ const Start = () => (
       Here are some examples of good PR that adhere to the standards of
       OpenHack:
     </Text>
-    <ol className="mb-5">
+    <ol className="list-decimal list-inside mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"
@@ -161,12 +161,12 @@ const Start = () => (
       </li>
     </ol>
 
-    <h3>Starting Your Own Open-Source Project</h3>
+    <h3 className="lg:text-xl">Starting Your Own Open-Source Project</h3>
     <Text className="mt-5 mb-2">
       Some of you probably enjoy building your own projects more! To help you
       get started with that, here are some resources that might be useful:
     </Text>
-    <ol className="mb-5">
+    <ol className="list-decimal list-inside mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"
@@ -192,7 +192,7 @@ const Start = () => (
       </li>
     </ol>
 
-    <h3>Looking for Help?</h3>
+    <h3 className="lg:text-xl">Looking for Help?</h3>
     <Text className="my-5">
       If you want to discuss ideas or require any help, you can always join our
       community at our{" "}

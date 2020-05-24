@@ -14,14 +14,14 @@ const Index = () => (
       create new (and fun!) open-source projects of your own. Non-NUS students
       are definitely welcome to participate in this challenge as well!
     </Text>
-    <h2 className="text-xl font-black">Event Details</h2>
+    <h2 className="text-xl lg:text-2xl font-black">Event Details</h2>
     <Text className="my-5">
       The format of the event is quite straightforward&mdash;from 18th May to
       1st July, complete any one of the following challenges to receive
       limited-edition prizes!
     </Text>
     <Text className="my-2">Challenges:</Text>
-    <ol className="mb-5">
+    <ol className="list-disc list-inside mb-5">
       <li className="ml-5 my-1">
         Make 3 valid pull requests (PRs) that satisfy the{" "}
         <Link href="rules#pr-standards">
@@ -40,7 +40,7 @@ const Index = () => (
         </Link>
       </li>
     </ol>
-    <h3>Prizes</h3>
+    <h3 className="lg:text-xl">Prizes</h3>
     <Text className="mt-5">
       Completion of either one, or both, of the two challenges above will earn
       you{" "}

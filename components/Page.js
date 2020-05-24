@@ -21,13 +21,13 @@ export const Page = ({ title, children }) => {
 
       <NavBar />
 
-      <main className="pt-12">
+      <main className="pt-12 lg:pt-16 text-base lg:text-lg">
         <Card>
           <div className="font-title text-center mb-5">
-            <h1 className="text-4xl md:text-5xl text-indigo-700">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl text-indigo-700">
               OpenHack 2020
             </h1>
-            <span className="text-md md:text-lg">
+            <span className="text-md md:text-lg lg:text-2xl">
               by{" "}
               <a
                 target="_blank"
