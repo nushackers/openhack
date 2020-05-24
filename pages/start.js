@@ -7,9 +7,9 @@ const Start = () => (
   <Page>
     <h2 className="text-xl font-black">Getting Started</h2>
     <Text className="my-5">
-      Not sure how to start? Fret not! Even those who are contributing actively
-      in the open source community were once in your position. In this section,
-      we will help you to get started to work on open source projects.
+      Not sure how to start? Fret not! Even experienced contributors were once
+      in your position. In this section, we will help you to get started to work
+      on open source projects.
     </Text>
 
     <h3>Using Git</h3>
@@ -37,7 +37,12 @@ const Start = () => (
       <li className="ml-5 my-1">
         <a target="_blank" href="https://orb2020-git.github.io/">
           Introduction to Git - Orbital 2020 by Hao Wei
+        </a>{" "}
+        (
+        <a target="_blank" href="https://www.youtube.com/watch?v=nc93yOGgP14">
+          Video here
         </a>
+        )
       </li>
     </ol>
 
@@ -48,21 +53,28 @@ const Start = () => (
     </Text>
     <ol className="mb-5">
       <li className="ml-5 my-1">
-        Find the project of your interest and look at how you can contribute.
+        Find a project of your interest and look at how you can contribute.
+        <ul>
+          <li className="ml-8 my-1">
+            Either visit their issue tracker (under "Issues" in their
+            repository) to find an issue that the maintainers need help with,
+            and offer your help or;
+          </li>
+          <li className="ml-8 my-1">
+            Open an issue that explains what you want to improve (e.g. bug
+            report, feature request, clean-up request, etc.), because a problem
+            that you notice may not seem like a problem for other people
+            (remember those memes saying "it's not a bug, it's a feature").
+          </li>
+        </ul>
       </li>
       <li className="ml-5 my-1">
-        Open an issue that explains what you want to improve (e.g. bug report,
-        feature request, clean-up request, etc.), because the problem that you
-        see may not look like a problem for other people (remember those memes
-        saying "it's not a bug, it's a feature").
-      </li>
-      <li className="ml-5 my-1">
-        Once it is confirmed, offer your help and ask for guidance from those
-        who are more experienced in the project on how you can make changes.
-        Each project might have its own styles and design patterns (you can spot
-        these easily if they have a contribution guide on their README). If they
-        do have them, you should adhere to them to follow the project's
-        conventions.
+        Once your help has been accepted, you can ask for guidance (if
+        necessary) from those who are more experienced in the project on how you
+        can make changes. Each project might have its own styles and design
+        patterns (you can spot these easily if they have a contribution guide on
+        their README). If they do have them, you should adhere to them to follow
+        the project's conventions.
       </li>
       <li className="ml-5 my-1">
         Fork the repository and create a branch for you to make your changes.
@@ -76,6 +88,11 @@ const Start = () => (
       <li className="ml-5 my-1">
         Submit a PR (pull request) to the project repository and wait for
         reviews from the maintainers of the repository.
+      </li>
+      <li className="ml-5 my-1">
+        Reviewers might accept your changes or request certain changes. Make
+        sure you check your submitted PR often to see if it is merged or if
+        there are any further changes that you need to make.
       </li>
     </ol>
 
@@ -105,7 +122,27 @@ const Start = () => (
       </li>
     </ol>
 
-    <h3>Start Your Own Project</h3>
+    <Text className="my-5">
+      Here are some examples of good PR that adhere to the standards of
+      OpenHack:
+    </Text>
+    <ol className="mb-5">
+      <li className="ml-5 my-1">
+        <a target="_blank" href="https://github.com/MarkBind/markbind/pull/974">
+          MarkBind - Fix plugin live reloading for relative file paths
+        </a>
+      </li>
+      <li className="ml-5 my-1">
+        <a
+          target="_blank"
+          href="https://github.com/nusmodifications/nusmods/pull/2449"
+        >
+          NUSMods - Highlight today on exam calendar
+        </a>
+      </li>
+    </ol>
+
+    <h3>Starting Your Own Open-Source Project</h3>
     <Text className="mt-5 mb-2">
       Some of you probably enjoy building your own projects more! To help you
       get started with that, here are some resources that might be useful:
@@ -122,35 +159,6 @@ const Start = () => (
       <li className="ml-5 my-1">
         <a target="_blank" href="https://roadmap.sh/">
           Web Developer Roadmaps
-        </a>
-      </li>
-    </ol>
-
-    <h3>Examples</h3>
-    <Text className="my-5">
-      Here are some examples of good PR that adhere to the standards of
-      OpenHack:
-    </Text>
-    <ol className="mb-5">
-      <li className="ml-5 my-1">
-        <a target="_blank" href="https://github.com/MarkBind/markbind/pull/974">
-          Fix plugin live reloading for relative file paths
-        </a>
-      </li>
-      <li className="ml-5 my-1">
-        <a
-          target="_blank"
-          href="https://github.com/nusmodifications/nusmods/pull/2449"
-        >
-          Highlight today on exam calendar
-        </a>
-      </li>
-      <li className="ml-5 my-1">
-        <a
-          target="_blank"
-          href="https://github.com/source-academy/cadet/pull/196"
-        >
-          Complete lambda integration
         </a>
       </li>
     </ol>
