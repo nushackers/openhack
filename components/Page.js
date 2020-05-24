@@ -13,8 +13,9 @@ export const Page = ({ title, children }) => {
         <meta property="og:title" content={title} />
         <meta
           property="og:description"
-          content="OpenHack is an initiative to promote the spirit
-          of hacking amongst students."
+          content="OpenHack is a new event by NUS Hackers to promote the spirit
+          of hacking amongst students, by encouraging contribution to
+          open-source and starting new open-source projects."
         />
       </Head>
 
