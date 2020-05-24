@@ -161,6 +161,11 @@ const Start = () => (
           Web Developer Roadmaps
         </a>
       </li>
+      <li className="ml-5 my-1">
+        <a target="_blank" href="https://school.nushackers.org/">
+          NUS Hackers - Hackerschool
+        </a>
+      </li>
     </ol>
 
     <h3>Looking for Help?</h3>
