@@ -7,13 +7,17 @@ const Submit = () => (
   <Page>
     <h2 className="text-xl lg:text-2xl font-black">Submission</h2>
     <Text className="mt-5">
-      We will be using GitHub's Issue Tracker to track submissions. By doing so,
-      you can also update your submission incrementally (i.e. add PR after PR as
-      you complete them) instead of submitting it in one go, so that we can
-      quickly provide feedback on your PRs / project if necessary!
+      Once you have submitted at least one pull request or have completed your
+      open-source project, you can now start to make a submission!
+    </Text>
+    <Text className="mt-5">
+      We will be using GitHub's Issue Tracker for submissions. By doing so, you
+      can also update your submission incrementally (i.e. add PR after PR as you
+      complete them) instead of submitting it in one go, so that we can quickly
+      provide feedback on your PRs / project if necessary.
     </Text>
     <Text className="mt-5 mb-2">
-      To make a submission, navigate to the{" "}
+      To make a submission, visit the{" "}
       <a
         target="_blank"
         href="https://github.com/nushackers/openhack-submissions/issues"
