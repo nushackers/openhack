@@ -27,17 +27,29 @@ const Start = () => (
     </Text>
     <ol className="list-decimal pl-5 ml-5 mb-5">
       <li className="my-1">
-        <a target="_blank" href="https://guides.github.com/" rel="noopener noreferrer">
+        <a
+          target="_blank"
+          href="https://guides.github.com/"
+          rel="noopener noreferrer"
+        >
           Guides
         </a>{" "}
         and{" "}
-        <a target="_blank" href="https://try.github.com/" rel="noopener noreferrer">
+        <a
+          target="_blank"
+          href="https://try.github.com/"
+          rel="noopener noreferrer"
+        >
           resources
         </a>{" "}
         by GitHub
       </li>
       <li className="my-1">
-        <a target="_blank" href="https://git-scm.com/book/en/v2" rel="noopener noreferrer">
+        <a
+          target="_blank"
+          href="https://git-scm.com/book/en/v2"
+          rel="noopener noreferrer"
+        >
           The Git book
         </a>
       </li>
@@ -51,15 +63,27 @@ const Start = () => (
         </a>
       </li>
       <li className="my-1">
-        <a target="_blank" href="https://orb2020-git.github.io/" rel="noopener noreferrer">
+        <a
+          target="_blank"
+          href="https://orb2020-git.github.io/"
+          rel="noopener noreferrer"
+        >
           Introduction to Git &mdash; Orbital 2020
         </a>{" "}
         (
-        <a target="_blank" href="https://www.youtube.com/watch?v=ddi69x3bCGM" rel="noopener noreferrer">
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=ddi69x3bCGM"
+          rel="noopener noreferrer"
+        >
           Slide narration
         </a>
         ,{" "}
-        <a target="_blank" href="https://www.youtube.com/watch?v=nc93yOGgP14" rel="noopener noreferrer">
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=nc93yOGgP14"
+          rel="noopener noreferrer"
+        >
           live workshop
         </a>
         )
@@ -205,14 +229,24 @@ const Start = () => (
 
     <h3 className="lg:text-xl">Looking for Help?</h3>
     <Text className="my-5">
-      If you want to discuss ideas or require any help, you can always join our
-      community at our{" "}
       <a
         target="_blank"
         href="https://t.me/nushackers_chat"
         rel="noopener noreferrer"
       >
-        Telegram chat
+        Contact us
+      </a>
+      {"  on "}
+      <a
+        target="_blank"
+        href="https://t.me/nushackers_chat"
+        rel="noopener noreferrer"
+      >
+        <img
+          alt="Telegram icon"
+          src="/icons8-telegram-app-48.png"
+          class="inline-block"
+        />
       </a>
       .
     </Text>

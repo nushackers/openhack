@@ -6,21 +6,16 @@ import { Text } from "../components/Text";
 
 const Index = () => (
   <Page>
-    <Text className="my-5">
-      OpenHack is a new event by NUS Hackers that encourages students to{" "}
-      <span className="font-medium">
-        start contributing to open-source projects or create new (and fun!)
-        open-source projects
-      </span>
-      . Non-NUS students are definitely welcome to participate in this challenge
-      as well!
-    </Text>
-    <h3 className="lg:text-xl">Why should I contribute to open-source?</h3>
-    <Text className="mt-5 mb-2">
-      Contributing to open-source will allow you to:
-    </Text>
+    <p>
+      <time>18th May</time> to <time>1 July</time>
+    </p>
+    <p>
+      Start contributing to open-source projects or create new (and fun!)
+      open-source projects. <span>Non-NUS students welcome!</span>
+    </p>
+    <h3 className="lg:text-xl">Why contribute?</h3>
     <ol className="list-disc pl-5 mb-5">
-      <li className="ml-5 my-1">Help your fellow student developers</li>
+      <li className="ml-5 my-1">Help fellow student developers</li>
       <li className="ml-5 my-1">
         Build and fix things that have meaningful, real impact on people's lives
       </li>
@@ -61,7 +56,7 @@ const Index = () => (
       </span>
       .
     </Text>
-    <h3 className="lg:text-xl">Need more information?</h3>
+    <h3 className="lg:text-xl">More Information</h3>
     <Text className="my-5">
       You can read the rules of the challenge{" "}
       <Link href="/rules">
@@ -79,7 +74,7 @@ const Index = () => (
     </Text>
     <h3 className="lg:text-xl">Contact Us</h3>
     <Text className="my-5">
-      Do drop us an email at{" "}
+      Email us at{" "}
       <a
         target="_blank"
         href="mailto:openhack@nushackers.org"
@@ -87,7 +82,7 @@ const Index = () => (
       >
         openhack@nushackers.org
       </a>{" "}
-      for any questions! We also have a{" "}
+      , or join our{" "}
       <a
         target="_blank"
         href="https://t.me/nushackers_chat"
@@ -95,8 +90,8 @@ const Index = () => (
       >
         NUS Hackers Telegram group
       </a>{" "}
-      filled with like-minded individuals like you. Join us to discuss ideas or
-      to get help! Or just lurk and absorb the ideas, we don't mind too.
+      to discuss ideas or to get help. Or just lurk and absorb the ideas, we
+      don't mind too.
     </Text>
   </Page>
 );
