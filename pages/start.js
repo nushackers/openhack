@@ -15,15 +15,15 @@ const Start = () => (
     <h3 className="lg:text-xl">Using Git</h3>
 
     <Text className="my-5">
-      Open source projects are typically maintained using git and made available
-      online through git hosting services (e.g. GitHub, GitLab, and BitBucket).
+      Open source projects are typically maintained using Git and made available
+      online through Git hosting services (e.g. GitHub, GitLab, and BitBucket).
       Before you start contributing to existing projects or even building your
       own projects, it would be wise to understand how people collaborate using
-      git.
+      Git.
     </Text>
     <Text className="mt-5 mb-2">
       The following are some of the online resources that can help you to
-      understand how to use git:
+      understand how to use Git:
     </Text>
     <ol className="list-decimal pl-5 ml-5 mb-5">
       <li className="my-1">
@@ -132,7 +132,7 @@ const Start = () => (
           href="https://opensource.guide/how-to-contribute/"
           rel="noopener noreferrer"
         >
-          Open Source Guides - How to Contribute to Open Source?
+          Open Source Guides &mdash; How to Contribute to Open Source?
         </a>
       </li>
       <li className="ml-5 my-1">
@@ -141,7 +141,7 @@ const Start = () => (
           href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github"
           rel="noopener noreferrer"
         >
-          DigitalOcean Open Source Tutorial Series - How to Create a Pull
+          DigitalOcean Open Source Tutorial Series &mdash; How to Create a Pull
           Request on GitHub
         </a>
       </li>
@@ -158,7 +158,7 @@ const Start = () => (
           href="https://github.com/MarkBind/markbind/pull/974"
           rel="noopener noreferrer"
         >
-          MarkBind - Fix plugin live reloading for relative file paths
+          MarkBind &mdash; Fix plugin live reloading for relative file paths
         </a>
       </li>
       <li className="ml-5 my-1">
@@ -167,7 +167,7 @@ const Start = () => (
           href="https://github.com/nusmodifications/nusmods/pull/2449"
           rel="noopener noreferrer"
         >
-          NUSMods - Highlight today on exam calendar
+          NUSMods &mdash; Highlight today on exam calendar
         </a>
       </li>
     </ol>
@@ -184,7 +184,7 @@ const Start = () => (
           href="https://github.com/danistefanovic/build-your-own-x"
           rel="noopener noreferrer"
         >
-          Daniel Stefanovic - Build Your Own X
+          Daniel Stefanovic &mdash; Build Your Own X
         </a>
       </li>
       <li className="ml-5 my-1">
@@ -198,7 +198,7 @@ const Start = () => (
           href="https://school.nushackers.org/"
           rel="noopener noreferrer"
         >
-          NUS Hackers - Hackerschool
+          Hackerschool by NUS Hackers
         </a>
       </li>
     </ol>
