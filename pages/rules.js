@@ -41,8 +41,8 @@ const Rules = () => (
     </ul>
     <Text id="pr-standards" className="my-5">
       This is not an exhaustive list of allowed repositories and we are still
-      building up this list along the way. If you want to contribute to any
-      other NUS-related repositories, feel free to do so and write to us at{" "}
+      building up this list. If you want to contribute to any other NUS-related
+      repositories, feel free to do so and write to us at{" "}
       <a
         target="_blank"
         href="mailto:openhack@nushackers.org"
@@ -66,9 +66,10 @@ const Rules = () => (
         <a href="#repos">list of approved repositories</a> are counted
       </li>
       <li className="ml-5 my-1">
-        Work should be self-initiated, and you cannot submit your
-        coursework/homework (e.g. work done for Orbital, CS2103, CS3281/82 and
-        other modules is <span className="font-medium">not</span> acceptable)
+        Work should be self-initiated, and you cannot submit your internship
+        work or coursework/homework (e.g. work done for Orbital, CS2103,
+        CS3281/82 and other modules is <span className="font-medium">not</span>{" "}
+        acceptable)
       </li>
     </ul>
     <Text className="mt-5 mb-2">
@@ -83,6 +84,14 @@ const Rules = () => (
       <li className="ml-5 my-1">
         Usage of software frameworks / libraries built by others are allowed
       </li>
+      <li className="ml-5 my-1">Project must be functional</li>
+      <li className="ml-5 my-1">
+        Creation of the project repository must be after the launch of OpenHack
+      </li>
+      <li className="ml-5 my-1">
+        Hardware hacks &mdash; you can upload your schematics, CAD files and the
+        like. A video of the working project would be great!
+      </li>
       <li className="ml-5 my-1">
         For ideas on what a project should look like, you can check out{" "}
         <a
@@ -92,24 +101,16 @@ const Rules = () => (
         >
           submissions for Hack&amp;Roll 2020
         </a>{" "}
-        (the rule of thumb is this: if your project shows some effort we will
+        (the rule of thumb is this: if your project shows effort we will
         consider it as substantial)
       </li>
-      <li className="ml-5 my-1">Project must be functional</li>
-      <li className="ml-5 my-1">
-        Creation of the project repository must be after the launch of OpenHack
-      </li>
-      <li className="ml-5 my-1">
-        Hardware hacks &mdash; you can upload your schematics, CAD files and the
-        like. A video of the working project would be great!
-      </li>
       <li id="faq" className="ml-5 my-1">
+        Project must continue to stay open-source even after the event is over
+      </li>
+      <li className="ml-5 my-1">
         Project must be self-initiated, and you cannot submit your work for
         other commitments (e.g. work done for Orbital, CS2103, CS3281/82 and
         other modules is <span className="font-medium">not</span> acceptable)
-      </li>
-      <li className="ml-5 my-1">
-        Project must continue to stay open-source even after the event is over
       </li>
     </ul>
     <h2 className="text-xl lg:text-2xl font-black">FAQs</h2>
@@ -145,6 +146,18 @@ const Rules = () => (
     />
     <FAQQuestion
       question="I don't know what pull requests (PRs) are? How do I get started?"
+      answer={
+        <Text>
+          Take a look at{" "}
+          <Link href="start">
+            <a>our Getting Started page here</a>
+          </Link>
+          .
+        </Text>
+      }
+    />
+    <FAQQuestion
+      question="I don't have any ideas for my open-source project. How do I get started?"
       answer={
         <Text>
           Take a look at{" "}
