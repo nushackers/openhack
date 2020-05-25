@@ -25,8 +25,7 @@ const Index = () => (
         Build and fix things that have meaningful, real impact on people's lives
       </li>
       <li className="ml-5 my-1">
-        Leave samples of your work in public for your future employers'
-        reference
+        Build public artifacts that help you grow a reputation (and a career)
       </li>
     </ol>
     <h3 className="lg:text-xl">I'm in! What do I do?</h3>
