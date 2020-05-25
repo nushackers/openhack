@@ -38,12 +38,47 @@ const Index = () => (
       </li>
     </ol>
     <h3 className="lg:text-xl">Prizes</h3>
-    <Text className="mt-5">
-      Completion of either one, or both, of the two challenges above will earn
-      you{" "}
+    <Text className="my-5">
+      Completion of any one of the two challenges above will earn you{" "}
       <span className="font-medium">
         a free limited-edition event completion T-shirt and stickers
       </span>
+      .
+    </Text>
+    <h3 className="lg:text-xl">Need more information?</h3>
+    <Text className="my-5">
+      You can read the rules of the challenge{" "}
+      <Link href="/rules">
+        <a>here</a>
+      </Link>
+      . We also have a FAQ section{" "}
+      <Link href="/rules#faq">
+        <a>here</a>
+      </Link>
+      . If you are not sure how to start, do look at our{" "}
+      <Link href="/start">
+        <a>Getting Started guide</a>
+      </Link>
+    </Text>
+    <h3 className="lg:text-xl">Contact Us</h3>
+    <Text className="my-5">
+      Do drop us an email at{" "}
+      <a
+        target="_blank"
+        href="mailto:openhack@nushackers.org"
+        rel="noopener noreferrer"
+      >
+        openhack@nushackers.org
+      </a>{" "}
+      for any questions. If you want to discuss ideas or require any help, feel
+      free to join our community at our{" "}
+      <a
+        target="_blank"
+        href="https://t.me/nushackers_chat"
+        rel="noopener noreferrer"
+      >
+        NUS Hackers Telegram group
+      </a>
       .
     </Text>
   </Page>

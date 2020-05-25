@@ -103,7 +103,7 @@ const Rules = () => (
         Hardware hacks &mdash; you can upload your schematics, CAD files and the
         like. A video of the working project would be great!
       </li>
-      <li className="ml-5 my-1">
+      <li id="faq" className="ml-5 my-1">
         Project must be self-initiated, and you cannot submit your work for
         other commitments (e.g. work done for Orbital, CS2103, CS3281/82 and
         other modules is <span className="font-medium">not</span> acceptable)
