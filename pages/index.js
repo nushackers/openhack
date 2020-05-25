@@ -7,36 +7,33 @@ import { Text } from "../components/Text";
 const Index = () => (
   <Page>
     <Text className="my-5">
-      In light of the disruption of our regular events because of the COVID-19
-      situation, we have started OpenHack. OpenHack is a new initiative by NUS
-      Hackers that aims to promote the spirit of hacking amongst students,
-      encouraging students to contribute to existing open-source projects and/or
-      create new (and fun!) open-source projects of your own. Non-NUS students
-      are definitely welcome to participate in this challenge as well!
+      OpenHack is a new event by NUS Hackers that encourages students to
+      contribute to existing open-source projects and / or create new (and fun!)
+      open-source projects. Non-NUS students are definitely welcome to
+      participate in this challenge as well!
     </Text>
     <h2 className="text-xl lg:text-2xl font-black">Event Details</h2>
-    <Text className="my-5">
-      The format of the event is quite straightforward&mdash;from 18th May to
-      1st July, complete any one of the following challenges to receive
-      limited-edition prizes!
+    <Text className="mt-5 mb-2">
+      From 18th May to 1st July, complete any one of the following challenges to
+      receive limited-edition prizes:
     </Text>
-    <Text className="my-2">Challenges:</Text>
-    <ol className="list-disc list-inside mb-5">
+    <ol className="list-disc pl-5 mb-5">
       <li className="ml-5 my-1">
         Make 3 valid pull requests (PRs) that satisfy the{" "}
         <Link href="rules#pr-standards">
-          <a>OpenHack Quality Standards</a>
+          <a>PR standards</a>
         </Link>{" "}
         to any{" "}
         <Link href="rules#repos">
           <a>NUS-related open source repositories</a>
-        </Link>
+        </Link>{" "}
+        or;
       </li>
       <li className="ml-5 my-1">
         Create and complete a fun new open source project of your own that
         satisfies the{" "}
         <Link href="rules#proj-standards">
-          <a>OpenHack Quality Standards</a>
+          <a>project standards</a>
         </Link>
       </li>
     </ol>

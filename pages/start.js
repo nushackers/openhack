@@ -25,7 +25,7 @@ const Start = () => (
       The following are some of the online resources that can help you to
       understand how to use git:
     </Text>
-    <ol className="list-decimal list-inside mb-5">
+    <ol className="list-decimal pl-5 mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"
@@ -60,10 +60,10 @@ const Start = () => (
       To contribute toward an open source project, the following are typically
       some of the steps that you may need to go through:
     </Text>
-    <ol className="list-decimal list-inside mb-5">
+    <ol className="list-decimal pl-5 mb-5">
       <li className="ml-5 my-1">
         Find a project of your interest and look at how you can contribute.
-        <ul className="list-disc list-inside">
+        <ul className="list-disc pl-5">
           <li className="ml-8 my-1">
             Either visit their issue tracker (under "Issues" in their
             repository) to find an issue that the maintainers need help with,
@@ -114,7 +114,7 @@ const Start = () => (
       The following are some resources that can help you to understand how to
       contribute to open source projects:
     </Text>
-    <ol className="list-decimal list-inside mb-5">
+    <ol className="list-decimal pl-5 mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"
@@ -140,7 +140,7 @@ const Start = () => (
       Here are some examples of good PR that adhere to the standards of
       OpenHack:
     </Text>
-    <ol className="list-decimal list-inside mb-5">
+    <ol className="list-decimal pl-5 mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"
@@ -166,7 +166,7 @@ const Start = () => (
       Some of you probably enjoy building your own projects more! To help you
       get started with that, here are some resources that might be useful:
     </Text>
-    <ol className="list-decimal list-inside mb-5">
+    <ol className="list-decimal pl-5 mb-5">
       <li className="ml-5 my-1">
         <a
           target="_blank"

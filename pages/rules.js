@@ -18,7 +18,7 @@ const Rules = () => (
     </Text>
     <h3 className="lg:text-xl">Eligibility</h3>
     <Text className="mt-5 mb-2">This event is open to:</Text>
-    <ol className="list-decimal list-inside mb-5">
+    <ol className="list-decimal pl-5 mb-5">
       <li className="ml-5 my-1">
         Students in ANY educational institution in Singapore, anywhere from
         primary school to undergraduate studies
@@ -30,7 +30,7 @@ const Rules = () => (
       <li className="ml-5 my-1">Full-time National Servicemen (NSFs)</li>
     </ol>
     <h3 className="lg:text-xl">Approved NUS-related repositories</h3>
-    <ul className="list-disc list-inside my-3">
+    <ul className="list-disc pl-5 my-3">
       {approvedRepos.repos.map((repo) => (
         <li key={repo.url} className="ml-5">
           <a target="_blank" href={repo.url} rel="noopener noreferrer">
@@ -56,7 +56,7 @@ const Rules = () => (
     <Text className="mt-5 mb-2">
       Valid PRs must meet the following criteria:
     </Text>
-    <ul className="list-disc list-inside mb-5">
+    <ul className="list-disc pl-5 mb-5">
       <li className="ml-5 my-1">
         Has to be non-trivial (i.e. more than typo fixes or small documentation
         changes)
@@ -75,7 +75,7 @@ const Rules = () => (
       Valid self-initiated open-source projects must meet the following
       criteria:
     </Text>
-    <ul className="list-disc list-inside mb-5">
+    <ul className="list-disc pl-5 mb-5">
       <li className="ml-5 my-1">
         Project should be new and original, and not have come from any previous
         work (inspiration from previous works is okay, but plagiarism is not)
