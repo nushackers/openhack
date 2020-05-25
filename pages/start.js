@@ -25,8 +25,23 @@ const Start = () => (
       The following are some of the online resources that can help you to
       understand how to use git:
     </Text>
-    <ol className="list-decimal pl-5 mb-5">
-      <li className="ml-5 my-1">
+    <ol className="list-decimal pl-5 ml-5 mb-5">
+      <li className="my-1">
+        <a target="_blank" href="https://guides.github.com/" rel="noopener noreferrer">
+          Guides
+        </a>{" "}
+        and{" "}
+        <a target="_blank" href="https://try.github.com/" rel="noopener noreferrer">
+          resources
+        </a>{" "}
+        by GitHub
+      </li>
+      <li className="my-1">
+        <a target="_blank" href="https://git-scm.com/book/en/v2" rel="noopener noreferrer">
+          The Git book
+        </a>
+      </li>
+      <li className="my-1">
         <a
           target="_blank"
           href="https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/"
@@ -35,21 +50,17 @@ const Start = () => (
           An introduction to Git: what it is, and how to use it
         </a>
       </li>
-      <li className="ml-5 my-1">
-        <a
-          target="_blank"
-          href="https://orb2020-git.github.io/"
-          rel="noopener noreferrer"
-        >
-          Introduction to Git - Orbital 2020 by Hao Wei
+      <li className="my-1">
+        <a target="_blank" href="https://orb2020-git.github.io/" rel="noopener noreferrer">
+          Introduction to Git &mdash; Orbital 2020
         </a>{" "}
         (
-        <a
-          target="_blank"
-          href="https://www.youtube.com/watch?v=nc93yOGgP14"
-          rel="noopener noreferrer"
-        >
-          Video
+        <a target="_blank" href="https://www.youtube.com/watch?v=ddi69x3bCGM" rel="noopener noreferrer">
+          Slide narration
+        </a>
+        ,{" "}
+        <a target="_blank" href="https://www.youtube.com/watch?v=nc93yOGgP14" rel="noopener noreferrer">
+          live workshop
         </a>
         )
       </li>
