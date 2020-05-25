@@ -8,6 +8,7 @@ export const NavBar = () => {
         <NavButton href="/rules">Rules</NavButton>
         <NavButton href="/start">Start</NavButton>
         <NavButton href="/submit">Submit</NavButton>
+        <NavButton href="/faq">FAQs</NavButton>
       </nav>
     </div>
   );

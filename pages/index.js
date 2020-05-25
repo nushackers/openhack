@@ -68,7 +68,7 @@ const Index = () => (
         <a>here</a>
       </Link>
       . We also have a FAQ section{" "}
-      <Link href="/rules#faq">
+      <Link href="/faq">
         <a>here</a>
       </Link>
       . If you are not sure how to start, do look at our{" "}
