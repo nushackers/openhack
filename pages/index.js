@@ -59,6 +59,7 @@ const Index = () => (
       <Link href="/start">
         <a>Getting Started guide</a>
       </Link>
+      .
     </Text>
     <h3 className="lg:text-xl">Contact Us</h3>
     <Text className="my-5">
