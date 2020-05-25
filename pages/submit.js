@@ -41,6 +41,7 @@ const Submit = () => (
         relevant to your submission. You can preview the submission form by
         clicking on the <strong>Preview</strong> tab.
       </li>
+      <li className="ml-10 my-1">Make your submission!</li>
     </ol>
     <Text className="mt-5 mb-2">
       Once you have made a submission, someone will review it and get back with
