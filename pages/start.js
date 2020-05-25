@@ -8,8 +8,8 @@ const Start = () => (
     <h2 className="text-xl lg:text-2xl font-black">Getting Started</h2>
     <Text className="my-5">
       Not sure how to start? Fret not! Even experienced contributors were once
-      in your position. In this section, we will help you to get started to work
-      on open source projects.
+      in your shoes. In this section, we will help you to get started to work on
+      open source projects.
     </Text>
 
     <h3 className="lg:text-xl">Using Git</h3>
