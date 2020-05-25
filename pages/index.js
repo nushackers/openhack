@@ -7,12 +7,29 @@ import { Text } from "../components/Text";
 const Index = () => (
   <Page>
     <Text className="my-5">
-      OpenHack is a new event by NUS Hackers that encourages students to
-      contribute to existing open-source projects and / or create new (and fun!)
-      open-source projects. Non-NUS students are definitely welcome to
-      participate in this challenge as well!
+      OpenHack is a new event by NUS Hackers that encourages students to{" "}
+      <span className="font-medium">
+        start contributing to open-source projects or create new (and fun!)
+        open-source projects
+      </span>
+      . Non-NUS students are definitely welcome to participate in this challenge
+      as well!
     </Text>
-    <h2 className="text-xl lg:text-2xl font-black">Event Details</h2>
+    <h3 className="lg:text-xl">Why should I contribute to open-source?</h3>
+    <Text className="mt-5 mb-2">
+      Contributing to open-source will allow you to:
+    </Text>
+    <ol className="list-disc pl-5 mb-5">
+      <li className="ml-5 my-1">Help your fellow student developers</li>
+      <li className="ml-5 my-1">
+        Build and fix things that have meaningful, real impact on people's lives
+      </li>
+      <li className="ml-5 my-1">
+        Leave samples of your work in public for your future employers'
+        reference
+      </li>
+    </ol>
+    <h3 className="lg:text-xl">I'm in! What do I do?</h3>
     <Text className="mt-5 mb-2">
       From 18th May to 1st July, complete any one of the following challenges to
       receive limited-edition prizes:
@@ -71,16 +88,16 @@ const Index = () => (
       >
         openhack@nushackers.org
       </a>{" "}
-      for any questions. If you want to discuss ideas or require any help, feel
-      free to join our community at our{" "}
+      for any questions! We also have a{" "}
       <a
         target="_blank"
         href="https://t.me/nushackers_chat"
         rel="noopener noreferrer"
       >
         NUS Hackers Telegram group
-      </a>
-      .
+      </a>{" "}
+      filled with like-minded individuals like you. Join us to discuss ideas or
+      to get help! Or just lurk and absorb the ideas, we don't mind too.
     </Text>
   </Page>
 );
