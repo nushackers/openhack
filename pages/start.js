@@ -64,12 +64,12 @@ const Start = () => (
       <li className="ml-5 my-1">
         Find a project of your interest and look at how you can contribute.
         <ul className="list-disc pl-5">
-          <li className="ml-8 my-1">
+          <li className="ml-3 my-1">
             Either visit their issue tracker (under "Issues" in their
             repository) to find an issue that the maintainers need help with,
             and offer your help or;
           </li>
-          <li className="ml-8 my-1">
+          <li className="ml-3 my-1">
             Open an issue that explains what you want to improve (e.g. bug
             report, feature request, clean-up request, etc.), because a problem
             that you notice may not seem like a problem for other people
