@@ -30,8 +30,8 @@ const Index = () => (
     </ol>
     <h3 className="lg:text-xl">I'm in! What do I do?</h3>
     <Text className="mt-5 mb-2">
-      From 18th May to 1st July, complete any one of the following challenges to
-      receive limited-edition prizes:
+      From now till 15<sup>th</sup> July, complete any one of the following
+      challenges to receive limited-edition prizes:
     </Text>
     <ol className="list-disc pl-5 mb-5">
       <li className="ml-5 my-1">

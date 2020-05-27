@@ -61,9 +61,16 @@ const Rules = () => (
         Has to be non-trivial (i.e. more than typo fixes or small documentation
         changes)
       </li>
-      <li id="proj-standards" className="ml-5 my-1">
+      <li className="ml-5 my-1">
         Only pull requests made on the{" "}
         <a href="#repos">list of approved repositories</a> are counted
+      </li>
+      <li className="ml-5 my-1">
+        Only pull requests made on or after 9<sup>th</sup> May 2020 are counted
+      </li>
+      <li id="proj-standards" className="ml-5 my-1">
+        Only pull requests that are merged or left open for more than five days
+        are counted
       </li>
       <li className="ml-5 my-1">
         Work should be self-initiated, and you cannot submit your internship
@@ -86,7 +93,8 @@ const Rules = () => (
       </li>
       <li className="ml-5 my-1">Project must be functional</li>
       <li className="ml-5 my-1">
-        Creation of the project repository must be after the launch of OpenHack
+        Creation of the project repository must be on or after 9<sup>th</sup>{" "}
+        May 2020
       </li>
       <li className="ml-5 my-1">
         Hardware hacks &mdash; you can upload your schematics, CAD files and the
