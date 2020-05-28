@@ -68,9 +68,14 @@ const Rules = () => (
       <li className="ml-5 my-1">
         Only pull requests made on or after 9<sup>th</sup> May 2020 are counted
       </li>
+      <li className="ml-5 my-1">
+        Only pull requests that are merged, or are left open for more than five
+        days without any response from the maintainer are counted
+      </li>
       <li id="proj-standards" className="ml-5 my-1">
-        Only pull requests that are merged or left open for more than five days
-        are counted
+        Closed or rejected PRs will be evaluated on a case-by-case basis. If you
+        think your PR is substantial but was closed or rejected, feel free to
+        include it in the submission
       </li>
       <li className="ml-5 my-1">
         Work should be self-initiated, and you cannot submit your internship
