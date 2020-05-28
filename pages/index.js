@@ -55,7 +55,8 @@ const Index = () => (
     </ol>
     <h3 className="lg:text-xl">Prizes</h3>
     <Text className="my-5">
-      Completion of any one of the two challenges above will earn you{" "}
+      Be one of the first 50 people to complete any one of the two challenges
+      above, and you will get{" "}
       <span className="font-medium">
         a free limited-edition event completion T-shirt and stickers
       </span>
@@ -77,26 +78,19 @@ const Index = () => (
       </Link>
       .
     </Text>
-    <h3 className="lg:text-xl">Contact Us</h3>
+    <h3 className="lg:text-xl">Join our community!</h3>
     <Text className="my-5">
-      Do drop us an email at{" "}
+      We have an{" "}
       <a
         target="_blank"
-        href="mailto:openhack@nushackers.org"
+        href="https://t.me/nushackers_openhack"
         rel="noopener noreferrer"
       >
-        openhack@nushackers.org
+        OpenHack Telegram group
       </a>{" "}
-      for any questions! We also have a{" "}
-      <a
-        target="_blank"
-        href="https://t.me/nushackers_chat"
-        rel="noopener noreferrer"
-      >
-        NUS Hackers Telegram group
-      </a>{" "}
-      filled with like-minded individuals like you. Join us to discuss ideas or
-      to get help! Or just lurk and absorb the ideas, we don't mind too.
+      for people who are trying to complete the challenge as well. Do join us to
+      discuss ideas or to get help! Or just lurk and absorb the ideas, we don't
+      mind too!
     </Text>
   </Page>
 );
