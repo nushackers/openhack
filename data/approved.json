@@ -35,6 +35,7 @@
     {
       "name": "Pyfluminus",
       "url": "https://github.com/raynoldng/pyfluminus"
-    }
+    },
+    { "name": "Pyfluminus GUI", "url": "https://github.com/J0/pyfluminus_gui" }
   ]
 }
