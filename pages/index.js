@@ -15,6 +15,11 @@ const Index = () => (
       . Non-NUS students are definitely welcome to participate in this challenge
       as well!
     </Text>
+    <Text className="text-red-700 my-5 text-center">
+      <span className="font-medium">UPDATE: </span>
+      The deadline for submission has now been extended to 15<sup>th</sup>{" "}
+      August! All the best!
+    </Text>
     <h3 className="lg:text-xl">Why should I contribute to open-source?</h3>
     <Text className="mt-5 mb-2">
       Contributing to open-source will allow you to:
@@ -30,7 +35,7 @@ const Index = () => (
     </ol>
     <h3 className="lg:text-xl">I'm in! What do I do?</h3>
     <Text className="mt-5 mb-2">
-      From now till 15<sup>th</sup> July, complete any one of the following
+      From now till 15<sup>th</sup> August, complete any one of the following
       challenges to receive limited-edition prizes:
     </Text>
     <ol className="list-disc pl-5 mb-5">
